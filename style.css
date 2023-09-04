@@ -1,0 +1,203 @@
+body {
+    background-color: #fbebd7;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 2px solid #1b0d06;
+    border-right: 2px solid #1b0d06;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.image {
+    margin-top: -400px;
+    margin-left: 465px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #1b0d06;
+}
+h1 {
+    margin-left: 70px;
+}
+#h-1 {
+    margin-left: 250px;
+}
+#h-1, #h-2, #h-3, #h-4 {
+    margin-right: 85px;
+}
+#bt-1 {
+    margin-left: 50px;
+    width: 200px;
+}
+.main-text {
+    margin-left: 70px;
+    font-size: 60px;
+}
+#p-2 {
+    position: absolute;
+    margin-top: -62px;
+    color: #ea4c1b;
+}
+.dashes {
+    margin-left: 310px;
+    position: absolute;
+    margin-top: 60px;
+}
+.text {
+    margin-top: -30px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+#p-4, #p-5, #p-6 {
+    margin-bottom: -15px;
+}
+#p-7 {
+    margin-bottom: 30px;
+}
+#bt-2 {
+    margin-left: 70px;
+    position: absolute;
+    width: 200px;
+}
+.hr {
+    width: 1307px;
+    height: 2px;
+    background-color: #1b0d06;
+    position: absolute;
+    margin-top: 150px;
+    z-index: -1;
+}
+.piano, .sax {
+    background-color: #ea4c1b;
+    width: 250px;
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 275px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-bottom: 80px;
+    z-index: 1;
+    box-shadow: 2px 2px 2px #1b0d06;
+    border: 2px solid #1b0d06;
+}
+.teoria, .bateria {
+    background-color: #fc9c3c;
+    width: 250px;
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 275px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-bottom: 80px;
+    z-index: 1;
+    box-shadow: 2px 2px 2px #1b0d06;
+    border: 2px solid #1b0d06;
+}
+#piano-1, #piano-2, #teoria-1, #teoria-2, #sax-1, #sax-2, #bateria-1, #bateria-2 {
+    margin-bottom: -11px;
+}
+#piano-1, #teoria-1, #sax-1, #bateria-1 {
+    margin-top: -5px;
+}
+#plus{
+    display: flex;
+    justify-content: center;
+}
+#bt-3 {
+    margin-left: 530px;
+    margin-bottom: 130px;
+    width: 230px;
+}
+.arrow-curve {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 200px;
+}
+main { 
+    border-bottom: 2px solid #1b0d06;
+}
+#name {
+    margin-bottom: -15px;
+}
+#line-1, #line-2, #line-3, #line-4, #line-5 {
+    margin-bottom: -10px;
+}
+footer {
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.middle-footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -182px;
+    margin-left: 350px;
+}
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -162px;
+    margin-left: 600px;
+    gap: 30px;
+}
+#bt-1, #bt-2, #bt-3, #bt-4 {
+    background-color: #ea4c1b;
+    border: 2px solid #1b0d06;
+    color: #1b0d06;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px #1b0d06;
+    height: 40px;
+}
+#bt-1:hover, #bt-2:hover, #bt-3:hover, #bt-4:hover {
+    background-color: #fc9c3c;
+}
+#bt-4 {
+    width: 210px;
+}
+#email {
+    height: 25px;
+    width: 350px;
+    box-shadow: 2px 2px 2px #1b0d06;
+    border: 2px solid #1b0d06;
+}
+#plus {
+    font-size: 50px;
+}
+#title-piano, #title-teoria, #title-sax, #title-bateria {
+    font-size: 22px;
+    font-weight: bolder;
+}
+.arrow {
+    margin-left: 180px;
+}
+.varios {
+    color: #ea4c1b;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.preview {
+    margin-left: 70px;
+}
+.play-pause-button {
+    background-color: #ea4c1b;
+    width: 100px;
+    height: 25px;
+    padding: 0;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 130px;
+    border: 2px solid #1b0d06;
+}
+#yellow-bt {
+    background-color: #fc9c3c;
+}
